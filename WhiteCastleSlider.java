@@ -12,7 +12,7 @@ public class WhiteCastleSlider {
         //Initializes neccesary variables and readies Scanner, prints opening message
         Scanner input = new Scanner(System.in);
         int size = 0;
-        System.out.println("Welcome dawg, to the OG slide puzzle game!");
+        System.out.println("Welcome, slide puzzle game!");
         System.out.println("In this game, the goal is to organize the tiles such");
         System.out.println("that they go in descending order (organized from left to right)");
         System.out.println("");
@@ -79,7 +79,7 @@ public class WhiteCastleSlider {
             double timeEnd = System.currentTimeMillis();
             double tTotal = (timeEnd-timeStart)/1000;
             System.out.println(p);
-            System.out.println("Congratulations dawg! You solved it in "+moves+" moves!");
+            System.out.println("Congratulations! You solved it in "+moves+" moves!");
             System.out.println("You cleared it in "+tTotal+" seconds!");
         }
         else{
